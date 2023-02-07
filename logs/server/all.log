@@ -1,0 +1,583 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:06:27.188Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:06:31.355Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:06:56.022Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:07:00.235Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:11:36.135Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:11:36.554Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (/home/smita/awesome-project/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:115:7)
+    at Busboy.emit (events.js:375:28)
+    at Busboy.emit (domain.js:470:12)
+    at Busboy.emit (/home/smita/awesome-project/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/smita/awesome-project/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:375:28)
+    at PartStream.emit (domain.js:470:12)
+    at HeaderParser.<anonymous> (/home/smita/awesome-project/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:375:28) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T09:12:18.074Z"}
+error: 
+    status - 500 
+    message - MulterError: Unexpected field
+    at wrappedFileFilter (/home/smita/awesome-project/node_modules/multer/index.js:40:19)
+    at Busboy.<anonymous> (/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:115:7)
+    at Busboy.emit (events.js:375:28)
+    at Busboy.emit (domain.js:470:12)
+    at Busboy.emit (/home/smita/awesome-project/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/smita/awesome-project/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:375:28)
+    at PartStream.emit (domain.js:470:12)
+    at HeaderParser.<anonymous> (/home/smita/awesome-project/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:375:28) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T09:12:48.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:13:23.964Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:13:23.988Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.image is not a function
+    at newUserValidator (/home/smita/awesome-project/src/validators/user.validator.js:6:16)
+    at Layer.handle [as handle_request] (/home/smita/awesome-project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/smita/awesome-project/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/smita/awesome-project/node_modules/on-finished/index.js:169:15)
+    at onFinish (/home/smita/awesome-project/node_modules/on-finished/index.js:100:5)
+    at callback (/home/smita/awesome-project/node_modules/ee-first/index.js:55:10)
+    at IncomingMessage.onevent (/home/smita/awesome-project/node_modules/ee-first/index.js:93:5)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T09:13:44.350Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:14:16.091Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:14:16.117Z"}
+error: 
+    status - 500 
+    message - Error: "image" is required
+    at new exports.ValidationError (/home/smita/awesome-project/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/smita/awesome-project/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/smita/awesome-project/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/smita/awesome-project/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/smita/awesome-project/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/smita/awesome-project/src/validators/user.validator.js:8:35)
+    at Layer.handle [as handle_request] (/home/smita/awesome-project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/smita/awesome-project/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-01T09:14:23.346Z"}
+error: 
+    status - 500 
+    message - Error: "image" is required
+    at new exports.ValidationError (/home/smita/awesome-project/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/smita/awesome-project/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/smita/awesome-project/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/smita/awesome-project/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/smita/awesome-project/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/smita/awesome-project/src/validators/user.validator.js:8:35)
+    at Layer.handle [as handle_request] (/home/smita/awesome-project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/smita/awesome-project/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:17:17.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:18:00.505Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:18:00.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:18:05.305Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:18:05.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:19:43.202Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:19:43.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:26:34.308Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:26:34.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:32:02.528Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:32:02.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:36:07.430Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:36:07.454Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (/home/smita/awesome-project/src/controllers/user.controller.js:59:13)
+    at tryCatch (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at newUser (/home/smita/awesome-project/src/controllers/user.controller.js:48:21) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:36:15.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:36:53.224Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:36:53.252Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (/home/smita/awesome-project/src/controllers/user.controller.js:59:13)
+    at tryCatch (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at newUser (/home/smita/awesome-project/src/controllers/user.controller.js:48:21) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:36:54.331Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (/home/smita/awesome-project/src/controllers/user.controller.js:59:13)
+    at tryCatch (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at newUser (/home/smita/awesome-project/src/controllers/user.controller.js:48:21) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:37:32.034Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (/home/smita/awesome-project/src/controllers/user.controller.js:59:13)
+    at tryCatch (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at newUser (/home/smita/awesome-project/src/controllers/user.controller.js:48:21) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:37:34.719Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (/home/smita/awesome-project/src/controllers/user.controller.js:59:13)
+    at tryCatch (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at newUser (/home/smita/awesome-project/src/controllers/user.controller.js:48:21) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:37:52.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:38:49.188Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:38:49.217Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (/home/smita/awesome-project/src/controllers/user.controller.js:59:13)
+    at tryCatch (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at newUser (/home/smita/awesome-project/src/controllers/user.controller.js:48:21) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:38:51.091Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (/home/smita/awesome-project/src/controllers/user.controller.js:59:13)
+    at tryCatch (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/awesome-project/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/awesome-project/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at newUser (/home/smita/awesome-project/src/controllers/user.controller.js:48:21) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:38:52.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:39:13.712Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:39:13.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:40:34.982Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:40:35.003Z"}
+error: 
+    status - 500 
+    message - Error: User validation failed
+    at new MongooseError (/home/smita/awesome-project/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new ValidationError (/home/smita/awesome-project/node_modules/mongoose/lib/error/validation.js:27:5)
+    at model.Document.invalidate (/home/smita/awesome-project/node_modules/mongoose/lib/document.js:2782:32)
+    at model.$set (/home/smita/awesome-project/node_modules/mongoose/lib/document.js:1349:12)
+    at model.$set (/home/smita/awesome-project/node_modules/mongoose/lib/document.js:1058:16)
+    at model.Document (/home/smita/awesome-project/node_modules/mongoose/lib/document.js:148:12)
+    at model.Model (/home/smita/awesome-project/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/home/smita/awesome-project/node_modules/mongoose/lib/model.js:4911:15) 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T09:43:54.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:46:15.165Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:46:15.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:49:09.472Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:49:09.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:52:51.620Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:52:51.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:53:36.944Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:53:36.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:55:23.411Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:55:23.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:57:11.707Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:57:11.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T09:59:03.273Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T09:59:03.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:00:59.033Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:00:59.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:04:58.516Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:04:58.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:05:43.322Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:05:43.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:06:29.637Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:06:29.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:06:54.126Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:06:54.156Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:07:43.533Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:07:43.554Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'upload/Screenshot from 2021-06-29 14-41-56.png' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:07:50.744Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'upload/Screenshot from 2021-06-29 14-41-56.png' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:08:45.681Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:09:36.558Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:09:36.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:09:48.321Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:09:48.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:10:52.360Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:10:52.383Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/Screenshot from 2021-06-29 14-41-56.png' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:10:57.621Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/Screenshot from 2021-06-29 14-41-56.png' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:11:12.743Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/1621848487474.pdf' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:16:02.775Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/WhatsApp Image 2022-01-11 at 6.21.28 PM.jpeg' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:16:37.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:17:47.303Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:17:47.331Z"}
+error: uncaughtException: The "path" argument must be of type string. Received an instance of Object
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Object
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:1148:7)
+    at cb (/home/smita/awesome-project/node_modules/multer/storage/disk.js:37:28)
+    at DiskStorage.filename [as getFilename] (/home/smita/awesome-project/src/routes/user.route.js:14:9)
+    at cb (/home/smita/awesome-project/node_modules/multer/storage/disk.js:34:10)
+    at DiskStorage.destination [as getDestination] (/home/smita/awesome-project/src/routes/user.route.js:11:9)
+    at DiskStorage._handleFile (/home/smita/awesome-project/node_modules/multer/storage/disk.js:31:8)
+    at /home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:145:17
+    at allowAll (/home/smita/awesome-project/node_modules/multer/index.js:8:3)
+    at wrappedFileFilter (/home/smita/awesome-project/node_modules/multer/index.js:44:7) {"date":"Tue Feb 01 2022 15:47:51 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[2.21,2.81,2.59],"uptime":28286.22},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18824703,"external":20997309,"heapTotal":79826944,"heapUsed":48834256,"rss":128393216},"pid":17532,"uid":1000,"version":"v14.17.2"},"stack":"TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received an instance of Object\n    at validateString (internal/validators.js:124:11)\n    at Object.join (path.js:1148:7)\n    at cb (/home/smita/awesome-project/node_modules/multer/storage/disk.js:37:28)\n    at DiskStorage.filename [as getFilename] (/home/smita/awesome-project/src/routes/user.route.js:14:9)\n    at cb (/home/smita/awesome-project/node_modules/multer/storage/disk.js:34:10)\n    at DiskStorage.destination [as getDestination] (/home/smita/awesome-project/src/routes/user.route.js:11:9)\n    at DiskStorage._handleFile (/home/smita/awesome-project/node_modules/multer/storage/disk.js:31:8)\n    at /home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:145:17\n    at allowAll (/home/smita/awesome-project/node_modules/multer/index.js:8:3)\n    at wrappedFileFilter (/home/smita/awesome-project/node_modules/multer/index.js:44:7)","timestamp":"2022-02-01T10:17:52.218Z","trace":[{"column":11,"file":"internal/validators.js","function":"validateString","line":124,"method":null,"native":false},{"column":7,"file":"path.js","function":"Object.join","line":1148,"method":"join","native":false},{"column":28,"file":"/home/smita/awesome-project/node_modules/multer/storage/disk.js","function":"cb","line":37,"method":null,"native":false},{"column":9,"file":"/home/smita/awesome-project/src/routes/user.route.js","function":"DiskStorage.filename [as getFilename]","line":14,"method":"filename [as getFilename]","native":false},{"column":10,"file":"/home/smita/awesome-project/node_modules/multer/storage/disk.js","function":"cb","line":34,"method":null,"native":false},{"column":9,"file":"/home/smita/awesome-project/src/routes/user.route.js","function":"DiskStorage.destination [as getDestination]","line":11,"method":"destination [as getDestination]","native":false},{"column":8,"file":"/home/smita/awesome-project/node_modules/multer/storage/disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"/home/smita/awesome-project/node_modules/multer/index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/multer/index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:18:10.547Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:18:10.600Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:18:21.765Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:18:21.792Z"}
+error: uncaughtException: The "path" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:1148:7)
+    at cb (/home/smita/awesome-project/node_modules/multer/storage/disk.js:37:28)
+    at DiskStorage.filename [as getFilename] (/home/smita/awesome-project/src/routes/user.route.js:14:9)
+    at cb (/home/smita/awesome-project/node_modules/multer/storage/disk.js:34:10)
+    at DiskStorage.destination [as getDestination] (/home/smita/awesome-project/src/routes/user.route.js:11:9)
+    at DiskStorage._handleFile (/home/smita/awesome-project/node_modules/multer/storage/disk.js:31:8)
+    at /home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:145:17
+    at allowAll (/home/smita/awesome-project/node_modules/multer/index.js:8:3)
+    at wrappedFileFilter (/home/smita/awesome-project/node_modules/multer/index.js:44:7) {"date":"Tue Feb 01 2022 15:48:23 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[3.02,2.94,2.64],"uptime":28317.87},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18891070,"external":21063676,"heapTotal":78516224,"heapUsed":48864992,"rss":127041536},"pid":17658,"uid":1000,"version":"v14.17.2"},"stack":"TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined\n    at validateString (internal/validators.js:124:11)\n    at Object.join (path.js:1148:7)\n    at cb (/home/smita/awesome-project/node_modules/multer/storage/disk.js:37:28)\n    at DiskStorage.filename [as getFilename] (/home/smita/awesome-project/src/routes/user.route.js:14:9)\n    at cb (/home/smita/awesome-project/node_modules/multer/storage/disk.js:34:10)\n    at DiskStorage.destination [as getDestination] (/home/smita/awesome-project/src/routes/user.route.js:11:9)\n    at DiskStorage._handleFile (/home/smita/awesome-project/node_modules/multer/storage/disk.js:31:8)\n    at /home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:145:17\n    at allowAll (/home/smita/awesome-project/node_modules/multer/index.js:8:3)\n    at wrappedFileFilter (/home/smita/awesome-project/node_modules/multer/index.js:44:7)","timestamp":"2022-02-01T10:18:23.863Z","trace":[{"column":11,"file":"internal/validators.js","function":"validateString","line":124,"method":null,"native":false},{"column":7,"file":"path.js","function":"Object.join","line":1148,"method":"join","native":false},{"column":28,"file":"/home/smita/awesome-project/node_modules/multer/storage/disk.js","function":"cb","line":37,"method":null,"native":false},{"column":9,"file":"/home/smita/awesome-project/src/routes/user.route.js","function":"DiskStorage.filename [as getFilename]","line":14,"method":"filename [as getFilename]","native":false},{"column":10,"file":"/home/smita/awesome-project/node_modules/multer/storage/disk.js","function":"cb","line":34,"method":null,"native":false},{"column":9,"file":"/home/smita/awesome-project/src/routes/user.route.js","function":"DiskStorage.destination [as getDestination]","line":11,"method":"destination [as getDestination]","native":false},{"column":8,"file":"/home/smita/awesome-project/node_modules/multer/storage/disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"/home/smita/awesome-project/node_modules/multer/index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/multer/index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:18:46.816Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:18:46.842Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/WhatsApp Image 2022-01-11 at 6.21.28 PM.jpeg' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:18:51.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:20:07.306Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:20:07.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:20:26.401Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:20:26.466Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open '../uploads/WhatsApp Image 2022-01-11 at 6.21.28 PM.jpeg' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:20:29.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:21:50.512Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:21:50.559Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:23:36.797Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:23:36.816Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/2022-02-01T10:23:40.235ZWhatsApp Image 2022-01-11 at 6.21.28 PM.jpeg' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:23:40.238Z"}
+error: uncaughtException: uploads is not defined
+ReferenceError: uploads is not defined
+    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:27:24)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js:176:21)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14) {"date":"Tue Feb 01 2022 15:55:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.07,2.97,2.75],"uptime":28721.29},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19067985,"external":21221991,"heapTotal":79560704,"heapUsed":51679224,"rss":125980672},"pid":18132,"uid":1000,"version":"v14.17.2"},"stack":"ReferenceError: uploads is not defined\n    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:27:24)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)","timestamp":"2022-02-01T10:25:07.281Z","trace":[{"column":24,"file":"/home/smita/awesome-project/src/index.js","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false}]}
+error: uncaughtException: __uploads is not defined
+ReferenceError: __uploads is not defined
+    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:27:24)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js:176:21)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14) {"date":"Tue Feb 01 2022 15:55:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.77,2.89,2.74],"uptime":28753.79},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19233258,"external":21387264,"heapTotal":84541440,"heapUsed":50287168,"rss":130084864},"pid":18163,"uid":1000,"version":"v14.17.2"},"stack":"ReferenceError: __uploads is not defined\n    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:27:24)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)","timestamp":"2022-02-01T10:25:39.777Z","trace":[{"column":24,"file":"/home/smita/awesome-project/src/index.js","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false}]}
+error: uncaughtException: __uploads is not defined
+ReferenceError: __uploads is not defined
+    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:27:24)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js:176:21)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14) {"date":"Tue Feb 01 2022 15:57:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[4.16,3.16,2.84],"uptime":28839.05},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19486029,"external":21640035,"heapTotal":80089088,"heapUsed":53322936,"rss":128741376},"pid":18237,"uid":1000,"version":"v14.17.2"},"stack":"ReferenceError: __uploads is not defined\n    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:27:24)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)","timestamp":"2022-02-01T10:27:05.044Z","trace":[{"column":24,"file":"/home/smita/awesome-project/src/index.js","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false}]}
+error: uncaughtException: __uploads is not defined
+ReferenceError: __uploads is not defined
+    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:27:24)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js:176:21)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14) {"date":"Tue Feb 01 2022 15:59:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[5.95,4.76,3.52],"uptime":28987.93},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18834699,"external":20988705,"heapTotal":78254080,"heapUsed":47835328,"rss":126640128},"pid":18342,"uid":1000,"version":"v14.17.2"},"stack":"ReferenceError: __uploads is not defined\n    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:27:24)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js:176:21)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)","timestamp":"2022-02-01T10:29:33.927Z","trace":[{"column":24,"file":"/home/smita/awesome-project/src/index.js","function":null,"line":27,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"/home/smita/awesome-project/node_modules/@babel/node/lib/_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:30:06.661Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:30:06.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:30:30.799Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:30:30.835Z"}
+error: uncaughtException: path is not defined
+ReferenceError: path is not defined
+    at DiskStorage.destination [as getDestination] (/home/smita/awesome-project/src/routes/user.route.js:12:18)
+    at DiskStorage._handleFile (/home/smita/awesome-project/node_modules/multer/storage/disk.js:31:8)
+    at /home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:145:17
+    at allowAll (/home/smita/awesome-project/node_modules/multer/index.js:8:3)
+    at wrappedFileFilter (/home/smita/awesome-project/node_modules/multer/index.js:44:7)
+    at Busboy.<anonymous> (/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:115:7)
+    at Busboy.emit (events.js:375:28)
+    at Busboy.emit (domain.js:470:12)
+    at Busboy.emit (/home/smita/awesome-project/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/home/smita/awesome-project/node_modules/busboy/lib/types/multipart.js:213:13) {"date":"Tue Feb 01 2022 16:00:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.9,4.39,3.47],"uptime":29049.72},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":19366209,"external":21538815,"heapTotal":83496960,"heapUsed":52234872,"rss":131620864},"pid":18461,"uid":1000,"version":"v14.17.2"},"stack":"ReferenceError: path is not defined\n    at DiskStorage.destination [as getDestination] (/home/smita/awesome-project/src/routes/user.route.js:12:18)\n    at DiskStorage._handleFile (/home/smita/awesome-project/node_modules/multer/storage/disk.js:31:8)\n    at /home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:145:17\n    at allowAll (/home/smita/awesome-project/node_modules/multer/index.js:8:3)\n    at wrappedFileFilter (/home/smita/awesome-project/node_modules/multer/index.js:44:7)\n    at Busboy.<anonymous> (/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js:115:7)\n    at Busboy.emit (events.js:375:28)\n    at Busboy.emit (domain.js:470:12)\n    at Busboy.emit (/home/smita/awesome-project/node_modules/busboy/lib/main.js:38:33)\n    at PartStream.<anonymous> (/home/smita/awesome-project/node_modules/busboy/lib/types/multipart.js:213:13)","timestamp":"2022-02-01T10:30:35.709Z","trace":[{"column":18,"file":"/home/smita/awesome-project/src/routes/user.route.js","function":"DiskStorage.destination [as getDestination]","line":12,"method":"destination [as getDestination]","native":false},{"column":8,"file":"/home/smita/awesome-project/node_modules/multer/storage/disk.js","function":"DiskStorage._handleFile","line":31,"method":"_handleFile","native":false},{"column":17,"file":"/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js","function":null,"line":145,"method":null,"native":false},{"column":3,"file":"/home/smita/awesome-project/node_modules/multer/index.js","function":"allowAll","line":8,"method":null,"native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/multer/index.js","function":"wrappedFileFilter","line":44,"method":null,"native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/multer/lib/make-middleware.js","function":null,"line":115,"method":null,"native":false},{"column":28,"file":"events.js","function":"Busboy.emit","line":375,"method":"emit","native":false},{"column":12,"file":"domain.js","function":"Busboy.emit","line":470,"method":"emit","native":false},{"column":33,"file":"/home/smita/awesome-project/node_modules/busboy/lib/main.js","function":"Busboy.emit","line":38,"method":"emit","native":false},{"column":13,"file":"/home/smita/awesome-project/node_modules/busboy/lib/types/multipart.js","function":null,"line":213,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:31:19.167Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:31:19.251Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/2022-02-01T10:31:59.567ZWhatsApp Image 2022-01-11 at 6.21.28 PM.jpeg' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:31:59.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:32:20.424Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:32:20.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:34:16.342Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:34:16.375Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:35:26.300Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:35:26.337Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T10:35:35.126Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T10:35:35.157Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open '../uploads/2022-02-01T10:35:41.926ZWhatsApp Image 2022-01-11 at 6.21.28 PM.jpeg' 
+    url - /api/v1/users?name=adhira&image 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-01T10:35:41.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T11:28:51.145Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T11:28:51.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-01T11:29:23.262Z"}
+info: Connected to the database. {"timestamp":"2022-02-01T11:29:23.329Z"}
+error: uncaughtException: Object prototype may only be an Object or null: ../uploads
+TypeError: Object prototype may only be an Object or null: ../uploads
+    at Function.create (<anonymous>)
+    at Function.express [as static] (/home/smita/awesome-project/node_modules/serve-static/index.js:48:21)
+    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:26:9)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {"date":"Tue Feb 01 2022 17:05:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.68,5.05,6.2],"uptime":1330.42},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18655941,"external":20809947,"heapTotal":77991936,"heapUsed":46439464,"rss":126980096},"pid":5328,"uid":1000,"version":"v14.17.2"},"stack":"TypeError: Object prototype may only be an Object or null: ../uploads\n    at Function.create (<anonymous>)\n    at Function.express [as static] (/home/smita/awesome-project/node_modules/serve-static/index.js:48:21)\n    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:26:9)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)","timestamp":"2022-02-01T11:35:40.720Z","trace":[{"column":null,"file":null,"function":"Function.create","line":null,"method":"create","native":false},{"column":21,"file":"/home/smita/awesome-project/node_modules/serve-static/index.js","function":"Function.express [as static]","line":48,"method":"express [as static]","native":false},{"column":9,"file":"/home/smita/awesome-project/src/index.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: uncaughtException: Object prototype may only be an Object or null: ../uploads
+TypeError: Object prototype may only be an Object or null: ../uploads
+    at Function.create (<anonymous>)
+    at Function.express [as static] (/home/smita/awesome-project/node_modules/serve-static/index.js:48:21)
+    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:26:9)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {"date":"Tue Feb 01 2022 17:06:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.27,4.78,6.06],"uptime":1362.1},"process":{"argv":["node","/home/smita/awesome-project/src/index.js"],"cwd":"/home/smita/awesome-project","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18409639,"external":20563645,"heapTotal":80351232,"heapUsed":44339096,"rss":128983040},"pid":5372,"uid":1000,"version":"v14.17.2"},"stack":"TypeError: Object prototype may only be an Object or null: ../uploads\n    at Function.create (<anonymous>)\n    at Function.express [as static] (/home/smita/awesome-project/node_modules/serve-static/index.js:48:21)\n    at Object.<anonymous> (/home/smita/awesome-project/src/index.js:26:9)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/awesome-project/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/awesome-project/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)","timestamp":"2022-02-01T11:36:12.403Z","trace":[{"column":null,"file":null,"function":"Function.create","line":null,"method":"create","native":false},{"column":21,"file":"/home/smita/awesome-project/node_modules/serve-static/index.js","function":"Function.express [as static]","line":48,"method":"express [as static]","native":false},{"column":9,"file":"/home/smita/awesome-project/src/index.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/awesome-project/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T11:19:28.298Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T11:19:29.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T11:22:44.653Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T11:22:44.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T11:25:10.547Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T11:25:10.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T11:25:22.236Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T11:25:22.268Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-02T11:26:39.721Z"}
+info: Connected to the database. {"timestamp":"2022-02-02T11:26:39.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T03:39:24.273Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T03:39:24.302Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/2022-02-03T03:39:28.725ZScreenshot from 2021-07-01 18-39-36.png' 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T03:39:28.770Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/2022-02-03T03:41:17.533ZScreenshot from 2021-07-01 18-39-36.png' 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T03:41:17.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T03:42:04.636Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T03:42:04.667Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/2022-02-03T03:42:07.874ZScreenshot from 2021-07-01 18-39-36.png' 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T03:42:07.879Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/2022-02-03T03:42:33.940ZScreenshot from 2021-07-01 18-39-36.png' 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T03:42:33.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T03:42:46.664Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T03:42:46.694Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/2022-02-03T03:42:54.405ZScreenshot from 2021-07-01 18-39-36.png' 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T03:42:54.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-03T03:43:30.091Z"}
+info: Connected to the database. {"timestamp":"2022-02-03T03:43:30.120Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'uploads/2022-02-03T03:43:32.636ZScreenshot from 2021-07-01 18-39-36.png' 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-03T03:43:32.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T05:45:41.855Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T05:45:41.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-04T05:50:28.910Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T05:50:28.928Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T07:07:23.284Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T07:07:23.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T04:00:29.676Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T04:00:30.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-08-19T04:04:00.073Z"}
+info: Connected to the database. {"timestamp":"2022-08-19T04:04:04.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-05T06:35:32.303Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T06:35:33.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-05T06:36:10.404Z"}
+info: Connected to the database. {"timestamp":"2022-11-05T06:36:10.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-05T10:55:37.718Z"}
+error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (fs.js:736:3)
+    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/home/smita/ImageUpload/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/smita/ImageUpload/node_modules/winston-transport/index.js:82:19)
+    at doWrite (/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/home/smita/ImageUpload/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Sat Nov 05 2022 16:25:37 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[4.58,2.55,2],"uptime":448576.86},"process":{"argv":["node","/home/smita/ImageUpload/src/index.js"],"cwd":"/home/smita/ImageUpload","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18992685,"external":21231526,"heapTotal":77238272,"heapUsed":49216112,"rss":124710912},"pid":54800,"uid":1000,"version":"v14.19.1"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/smita/ImageUpload/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/smita/ImageUpload/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/smita/ImageUpload/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","timestamp":"2022-11-05T10:55:37.723Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/smita/ImageUpload/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/smita/ImageUpload/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/smita/ImageUpload/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/smita/ImageUpload/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
